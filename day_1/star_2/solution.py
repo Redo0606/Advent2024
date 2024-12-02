@@ -1,6 +1,7 @@
-from star_2_functions import decode_lists
-from star_2_functions import count_occurences
-input_file = "Advent2024/day_1/star_2/input.txt"
+from functions import decode_lists
+from functions import count_occurences
+
+input_file = "day_1/star_2/input.txt"
 
 right_list, left_list = decode_lists(input_file=input_file)
 
