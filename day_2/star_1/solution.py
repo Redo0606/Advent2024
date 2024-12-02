@@ -1,3 +1,7 @@
-from functions import hello_world
+from functions import decode_lists
+from functions import count_total_safe
 
-hello_world()
+input_file = "day_2/star_1/input.txt"
+input_lists = decode_lists(input_file=input_file)
+result = count_total_safe(input_lists=input_lists)
+print(f"TOTAL SAFE NUMBER LISTS : {result}")
