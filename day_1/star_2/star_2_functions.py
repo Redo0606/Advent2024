@@ -44,7 +44,9 @@ def decode_lists(input_file):
 def count_occurences(left_list, right_list) : 
     right_occurences_count = Counter(right_list)
     sum = 0
+    print(f"---------LIST---------")
     for number in left_list : 
         if number in right_occurences_count.keys() : 
             sum += int(right_occurences_count[number])*int(number)
+            print(f"{number}*{right_occurences_count[number]}")
     return sum
