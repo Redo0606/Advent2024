@@ -1,8 +1,8 @@
-from functions import decode_lists
-from functions import sort_lists
-from functions import compute_distance_between_lists
+from star_1_functions import decode_lists
+from star_1_functions import sort_lists
+from star_1_functions import compute_distance_between_lists
 
-input_file = "day_1/star_1/input.txt"
+input_file = "Advent2024/day_1/star_1/input.txt"
 
 right_list, left_list = decode_lists(input_file=input_file)
 
